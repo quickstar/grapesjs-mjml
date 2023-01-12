@@ -1,0 +1,158 @@
+<mjml lang="de">
+  <mj-head>
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css?family=Inter" />
+    <mj-preview>Buchungsbestätigung</mj-preview>
+    <mj-title>Buchungsbestätigung</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Inter" />
+      <mj-class name="bg-white" background-color="#FFFFFF" />
+      <mj-class name="bg-red" background-color="#FF0000" />
+      <mj-class name="bg-primary" background-color="#242349" />
+      <mj-class name="border-primary" border-color="#242349" />
+      <mj-class name="font-bold" font-weight="700" />
+      <mj-class name="px-4" padding-left="16px" padding-right="16px" />
+      <mj-class name="p-0" padding="0px" />
+      <mj-class name="py-0" padding-top="0px" padding-bottom="0px" />
+      <mj-class name="text-primary" color="#242349" />
+      <mj-class name="text-sm" font-size="14px" />
+      <mj-text font-size="16px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      .location div {
+        background: #F4F4F6;
+        padding: 16px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#E4E6EB">
+    <mj-section mj-class="bg-white" padding-bottom="0px" padding-top="0px">
+      <mj-column vertical-align="top" width="100%">
+        <mj-image src="data:image/png;base64,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" alt="" border="none" width="150px" align="left" padding-bottom="25px" padding-top="72px" />
+        <mj-text mj-class="text-primary" font-size="24px" padding-top="24px">
+          <span mj-class="text-primary">Daniel Studer</span> der <span>3volutions AG</span> hat gerade eine Bestellung aufgegeben
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Content -->
+    <mj-section mj-class="bg-white" padding-top="32px" padding-bottom="0">
+      <mj-column vertical-align="middle" width="100%" border-bottom="1px dashed #EEEEEE">
+        <mj-text align="left" mj-class="text-primary" line-height="20px" padding-left="25px" padding-right="25px">
+          Hi {{Catering/Service provider}}
+          <br><br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </mj-text>
+
+        <mj-button align="left" font-size="14px" mj-class="bg-primary" border-radius="20px" color="#FFFFFF">Buchung ansehen</mj-button>
+
+        <mj-divider border-width="1px" border-style="solid" mj-class="border-primary" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="bg-white" padding="0px">
+      <mj-column>
+        <mj-text css-class="location">
+          <strong>Sitzungszimmer 001, 1. Stock</strong><br><br>
+          3volutions AG<br>
+          Weissensteinstrasse 87, CH-3007 Bern<br>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="bg-white" padding="0px">
+      <mj-column>
+        <mj-text>
+          Details deiner Buchung
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="bg-white py-0 px-4">
+      <mj-column border-bottom="1px solid #EAE9ED">
+        <mj-text mj-class="font-bold text-sm">Tite der Buchung</mj-text>
+      </mj-column>
+      <mj-column border-bottom="1px solid #EAE9ED">
+        <mj-text mj-class="text-sm">Schnellbuchung No. 32438</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="bg-white py-0 px-4">
+      <mj-column>
+        <mj-text mj-class="font-bold text-sm">Datum</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="text-sm">Donnerstag, 18.08.2022, 15:00-16:00</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="bg-white py-0 px-4">
+      <mj-column>
+        <mj-text mj-class="font-bold text-sm">Ersteller</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="text-sm">Anala Schniebel, 3volutions AG</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="bg-white" padding="0px">
+      <mj-column>
+        <mj-text>Gebuchte Dienstleistungen</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="bg-white py-0 px-4">
+      <mj-column>
+        <mj-text mj-class="text-sm">8 x Frühstück klein</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" mj-class="text-sm">a CHF 14.50</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="text-sm" align="right">CHF 116.-</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="bg-white py-0 px-4">
+      <mj-column>
+        <mj-text mj-class="text-sm">12 x Kaffi fertig</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" mj-class="text-sm">a CHF 7.50</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="text-sm" align="right">CHF 90.-</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Help -->
+    <!-- <mj-section background-color="#FFFFFF" padding-bottom="0px" padding-top="0px">
+      <mj-column vertical-align="middle" width="100%">
+        <mj-text align="left" color="#071C4D" font-size="18px" line-height="20px" padding-left="25px" padding-right="25px">
+          Butuh Bantuan?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#FFFFFF" padding-bottom="20px" padding-top="0px">
+      <mj-column>
+        <mj-table>
+          <tr>
+            <td style="width: 50px">
+              <img src="images/ic_support@2x.png" width="50px" />
+            </td>
+            <td style="font-size:18px; padding-left:10px; color: #071C4D;">
+              support@nomads.id
+              <br>
+              082387045706
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section> -->
+
+    <!-- Footer -->
+    <!-- <mj-section padding-bottom="30px" padding-top="3px">
+      <mj-column>
+        <mj-text align="center" color="#888B93" font-size="18px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="30px">
+          2020 Nomads Copyright All Right Reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section> -->
+  </mj-body>
+</mjml>

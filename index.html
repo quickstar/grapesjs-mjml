@@ -33,114 +33,120 @@
 
   <div id="gjs" style="height:0px; overflow:hidden">
     <mjml>
-      <mj-head>
-        <mj-font name="Barlow" href="https://fonts.googleapis.com/css?family=Barlow" />
+      <mj-body background-color="#E4E6EB">
+        <mj-section background-color="#FFFFFF" padding-bottom="0px" padding-top="0px" border-bottom="1px dashed
+          #EEEEEE">
+          <mj-column vertical-align="top" width="100%">
+            <mj-image
+              src="data:image/png;base64,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"
+              alt="" align="center" border="none" width="150px" padding-left="0px" padding-right="0px"
+              padding-bottom="25px" padding-top="30px" />
+          </mj-column>
 
-        <mj-style>
-          .slogan {
-            background: #000;
-          }
-        </mj-style>
-      </mj-head>
-      <mj-body>
-        <!-- Company Header -->
-        <mj-section background-color="#f0f0f0">
-          <mj-column>
-            <mj-text font-family="Barlow">A first line of text</mj-text>
-            <mj-spacer height="50px" />
+        </mj-section>
+
+        <!-- Title -->
+        <mj-section background-color="#FFFFFF" padding-bottom="0px" padding-top="0px">
+          <mj-column vertical-align="top" width="100%">
+            <mj-text align="center" color="#071C4D" font-size="30px" font-weight="bold" font-family="Playfair Display,
+              Times New Roman, serif" padding-left="25px" padding-right="25px" padding-top="30px"
+              padding-bottom="30px">
+              Don’t Forget Your E-Ticket
+            </mj-text>
           </mj-column>
         </mj-section>
 
-        <!-- Image Header -->
-        <mj-section background-url="http://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
-          background-size="cover" background-repeat="no-repeat">
-          <mj-column>
-            <mj-text css-class="slogan" align="center" color="#fff" font-size="40px" font-family="Helvetica Neue">Slogan here</mj-text>
-            <mj-button background-color="#F63A4D" href="#">
-              Promotion
+        <!-- Travel Image -->
+        <mj-section background-color="#FFFFFF" padding-bottom="0px" padding-top="0px">
+          <mj-column vertical-align="top" width="100%">
+            <mj-image src="images/details@2x.png" alt="" align="center" border="none" width="550px" padding-left="0px"
+              padding-right="0px" padding-bottom="0px" padding-top="0px" />
+          </mj-column>
+        </mj-section>
+
+        <!-- Content -->
+        <mj-section background-color="#FFFFFF" padding-bottom="20px" padding-top="20px">
+          <mj-column vertical-align="middle" width="100%" border-bottom="1px dashed #EEEEEE" padding-bottom="30px">
+            <mj-text align="left" color="#071C4D" font-size="18px" line-height="20px"
+              font-family="Assistant, Helvetica, Arial, sans-serif" padding-left="25px" padding-right="25px">
+              Hi, Dani Kristianto
+              <br><br>
+              Your Digital Ticket Successfully Created.
+              <br>
+              Booking ID <strong>#22081996</strong>
+            </mj-text>
+
+            <mj-table color="#071C4D" font-size="18px" line-height="28px"
+              font-family="Assistant, Helvetica, Arial, sans-serif" padding-left="25px" padding-right="25px">
+              <tr>
+                <td colspan="3">Members</td>
+              </tr>
+              <tr>
+                <td><strong>Dani Kristianto</strong></td>
+                <td style="text-align: right">Singapore, SG</td>
+              </tr>
+            </mj-table>
+
+            <mj-table color="#071C4D" font-size="18px" line-height="28px"
+              font-family="Assistant, Helvetica, Arial, sans-serif" padding-left="25px" padding-right="25px">
+              <tr>
+                <td colspan="3">Travel Details</td>
+              </tr>
+              <tr>
+                <td><strong>Departure</strong></td>
+                <td style="text-align: right">Nusa Penida</td>
+              </tr>
+              <tr>
+                <td><strong>Date and Time</strong></td>
+                <td style="text-align: right">Thu, 20 Jun 2020</td>
+              </tr>
+            </mj-table>
+
+            <mj-button align="center" font-size="18px" background-color="#FF9E53" border-radius="10px" color="#FFFFFF"
+              font-family="Assistant, Helvetica, Arial, sans-serif">
+              Check Detail
             </mj-button>
           </mj-column>
         </mj-section>
 
-        <!-- Intro text -->
-        <mj-wrapper background-color="#ffe9f7" padding="10px">
-          <mj-section background-color="#eaeffa">
-            <mj-group background-color="#fffadd">
-              <mj-column>
-                <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">My Awesome Text</mj-text>
-                <mj-text color="#525252">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper.
-                  Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec
-                  commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
-                </mj-text>
-                <mj-button background-color="#F45E43" href="#">Learn more</mj-button>
-              </mj-column>
-            </mj-group>
-          </mj-section>
-        </mj-wrapper>
+        <!-- Help -->
+        <mj-section background-color="#FFFFFF" padding-bottom="0px" padding-top="0px">
+          <mj-column vertical-align="middle" width="100%">
+            <mj-text align="left" color="#071C4D" font-size="18px" line-height="20px"
+              font-family="Assistant, Helvetica, Arial, sans-serif" padding-left="25px" padding-right="25px">
+              Butuh Bantuan?
+            </mj-text>
+          </mj-column>
+        </mj-section>
 
-        <!-- Side image -->
-        <mj-section background-color="white">
+        <mj-section background-color="#FFFFFF" padding-bottom="20px" padding-top="0px">
           <mj-column>
-            <mj-image width="200px" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
-          </mj-column>
-          <mj-column>
-            <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">
-              Find amazing places ...
-            </mj-text>
-            <mj-text color="#525252">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper.
-              Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.</mj-text>
-          </mj-column>
-        </mj-section>
-        <mj-section>
-          <mj-column>
-            <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262" align="center">
-              ... with real-life images
-            </mj-text>
-          </mj-column>
-        </mj-section>
-        <mj-raw>
-          <div class="container">
-            <img class="item" src="https://source.unsplash.com/random/200x141" alt="Example image">
-            <img class="item" src="https://source.unsplash.com/random/200x142" alt="Example image">
-            <img class="item" src="https://source.unsplash.com/random/200x143" alt="Example image">
-            <img class="item" src="https://source.unsplash.com/random/200x144" alt="Example image">
-            <img class="item" src="https://source.unsplash.com/random/200x145" alt="Example image">
-            <img class="item" src="https://source.unsplash.com/random/200x146" alt="Example image">
-          </div>
-        </mj-raw>
-        <!-- Icons -->
-        <mj-section background-color="#fbfbfb">
-          <mj-column>
-            <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0l.png" />
-          </mj-column>
-          <mj-column>
-            <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x01.png" />
-          </mj-column>
-          <mj-column>
-            <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0s.png" />
+            <mj-table>
+              <tr>
+                <td style="width: 50px">
+                  <img src="images/ic_support@2x.png" width="50px" />
+                </td>
+                <td
+                  style="font-size:18px; padding-left:10px; color: #071C4D; font-family: Assistant, Helvetica, Arial, sans-serif">
+                  support@nomads.id
+                  <br>
+                  082387045706
+                </td>
+              </tr>
+            </mj-table>
           </mj-column>
         </mj-section>
 
         <!-- Footer -->
-        <mj-section background-color="#e7e7e7">
+        <mj-section padding-bottom="30px" padding-top="3px">
           <mj-column>
-            <mj-button href="#">Hello There!</mj-button>
-            <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-              <mj-social-element name="facebook" href="https://mjml.io/">
-                Facebook
-              </mj-social-element>
-              <mj-social-element name="google" href="https://mjml.io/">
-                Google
-              </mj-social-element>
-              <mj-social-element name="twitter" href="https://mjml.io/">
-                Twitter
-              </mj-social-element>
-            </mj-social>
+            <mj-text align="center" color="#888B93" font-size="18px"
+              font-family="Assistant, Helvetica, Arial, Sans-serif" padding-left="25px" padding-right="25px"
+              padding-bottom="0px" padding-top="30px">
+              2020 Nomads Copyright All Right Reserved.
+            </mj-text>
           </mj-column>
         </mj-section>
-        <!-- Footer -->
       </mj-body>
     </mjml>
   </div>
@@ -152,7 +158,7 @@
       window.editor = grapesjs.init({
         height: '100%',
         noticeOnUnload: 0,
-        storageManager: {autoload: 0},
+        storageManager: { autoload: 0 },
         container: '#gjs',
         fromElement: true,
 
